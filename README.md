@@ -214,14 +214,16 @@ Colors.xml.
 [Pract 5B : AppBar]
 
 Steps :
+
 1. Create AppBar (Remove the default Action Bar)
 a. Go to values themes.xml
 b. Change:
-<style name="Theme.Prac5_AppBar" 
-parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+                <style name="Theme.Prac5_AppBar" 
+                parent="Theme.MaterialComponents.DayNight.DarkActionBar">
 To
-<style name="Theme.Prac5_AppBar" 
-parent="Theme.MaterialComponents.DayNight.NoActionBar">
+                <style name="Theme.Prac5_AppBar" 
+                parent="Theme.MaterialComponents.DayNight.NoActionBar">
+                        
 2. Add a Toolbar to the activity's layout.
 a. Go to resources layout
 b. Right click > New > Layout Resource File
